@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/resources/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="max-width">
+      <h1>
+        <a href="#">Desarrollo Web</a>
+      </h1>
+      <nav>
+        <ul id="navbar" class="navbar">
+          <li><a id="item" href="#parrafo">Párrafos</a></li>
+          <li><a id="item" href="#imagenes">Imágenes</a></li>
+          <li><a id="item" href="#enlaces">Enlaces</a></li>
+          <li><a id="item" href="#tabla">Tabla</a></li>
+          <li><a id="item" href="#multimedia">Multimedia</a></li>
+          <li><a id="item" href="#formulario">Formulario</a></li>
+        </ul>
+        <i class="fa-solid fa-bars bars icon-visible" id="bars"></i>
+        <i class="fa-solid fa-xmark close icon-hide" id="close"></i>
+      </nav>
+    </header>
+    <main class="max-width">
+      <!-- seccion parrafo -->
+      <section id="parrafo" class="h-full parrafo center">
+        <div class="header center">
+          <h2>Bienvenido a mi página web</h2>
+          <p>
+            Esta <strong>página web</strong> ofrece una experiencia visual e interactiva, con secciones diseñadas para facilitar la navegación y el
+            acceso a contenido relevante.
+          </p>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <img src="/resources/img/card/gallery.jpg" alt="galeria" />
+            <h2>Galería de Imágenes</h2>
+            <p>
+              Disfruta de una selección de fotografías y gráficos que complementan y enriquecen el contenido del sitio, ofreciendo inspiración visual.
+            </p>
+            <a href="#imagenes">
+              Ir
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+          <div class="card">
+            <img src="/resources/img/card/link.png" alt="enlaces de interes" />
+            <h2>Enlaces de Interés</h2>
+            <p>
+              Encuentra una lista de enlaces a recursos y sitios web relevantes para ampliar tus conocimientos y explorar contenido adicional de
+              interés.
+            </p>
+            <a href="#enlaces">
+              Ir
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="card">
+            <img src="/resources/img/card/table.jpg" alt="tabla de Información" />
+            <h2>Tabla de Información</h2>
+            <p>
+              Revisa datos organizados de manera clara y concisa en nuestra tabla informativa, perfecta para comparar opciones y obtener una visión
+              general rápida.
+            </p>
+            <a href="#tabla">
+              Ir
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="card">
+            <img src="/resources/img/card/music.jpg" alt="multimedia" />
+            <h2>Contenido Multimedia</h2>
+            <p>
+              Explora videos, audios y contenido interactivo en nuestra sección multimedia, diseñada para ofrecer una experiencia inmersiva y
+              educativa.
+            </p>
+            <a href="#multimedia">
+              Ir
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="card">
+            <img src="/resources/img/card/form.png" alt="formulario de contacto" />
+            <h2>Formulario de Contacto</h2>
+            <p>
+              Comunícate con nosotros de manera rápida y sencilla a través de nuestro formulario de contacto. Estamos aquí para responder tus
+              preguntas y comentarios.
+            </p>
+            <a href="#formulario">
+              Ir
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- seccion imagenes -->
+      <section id="imagenes" class="h-full imagen center">
+        <h2>Las 7 Maravillas del Mundo</h2>
+        <div class="gallery-container">
+          <div class="item">
+            <img src="/resources/img/gallery/chichen-itza.png" alt="Chichén Itzá" />
+            <h3 class="description">Chichén Itzá<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/coliseo.png" alt="Coliseo Romano" />
+            <h3 class="description">Coliseo Romano<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/cristo-redentor.png" alt="Cristo Redentor" />
+            <h3 class="description">Cristo Redentor<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/machu-picchu.png" alt="Machu Picchu" />
+            <h3 class="description">Machu Picchu<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/muralla-china.png" alt="Muralla China" />
+            <h3 class="description">Muralla China<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/petra.png" alt="Petra" />
+            <h3 class="description">Petra<h3/>
+          </div>
+          <div class="item">
+            <img src="/resources/img/gallery/taj-mahal.png" alt="Taj Mahal" />
+            <h3 class="description">Taj Mahal<h3/>
+          </div>
+        </div>
+      </section>
+
+      <!-- seccion enlaces -->
+      <section id="enlaces" class="h-full enlaces center">
+        <h2>Enlaces a sitios de recusos para programadores</h2>
+        <div class="enlaces-container">
+          <a href="https://tailwindcss.com/" target="_blank">
+            TailwindCss
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+          <a href="https://mycolor.space/" target="_blank">
+            ColorSpace
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+          <a href="https://getbootstrap.com/" target="_blank">
+            Bootstrap
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+          <a href="https://fontawesome.com/" target="_blank">
+            FontAwesome
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+          <a href="https://animate.style/" target="_blank">
+            Animate.css
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- seccion tabla -->
+      <section id="tabla" class="h-full center">
+        <h2>Tabla de tareas</h2>
+        <div class="tabla">
+          <table>
+            <thead>
+              <tr>
+                <th>N°</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Fecha de Entrega</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Trabajo de exposición</td>
+                <td>Exposición sobre PWA</td>
+                <td>No expecificado</td>
+                <td class="estado-contaniner">
+                  <span class="finalizado">Finalizado</span>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Tarea 1 desarrollo web</td>
+                <td>Crear la estructura y diseño de una página web compleja.</td>
+                <td>14 de agosto del 2024</td>
+                <td class="estado-contaniner">
+                  <span class="finalizado">Finalizado</span>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Tarea 2 desarrollo web</td>
+                <td>Crear página web avanzada.</td>
+                <td>14 de agosto del 2024</td>
+                <td class="estado-contaniner">
+                  <span class="progreso">En progreso</span>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Tarea 3 desarrollo web</td>
+                <td>Crear página web usando Bootstrap.</td>
+                <td>16 de agosto del 2024</td>
+                <td class="estado-contaniner">
+                  <span class="progreso">En progreso</span>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Lab 1 seguridad informática</td>
+                <td>Linux, Snort</td>
+                <td>14 de agosto del 2024</td>
+                <td class="estado-contaniner">
+                  <span class="progreso">En progreso</span>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Lab 2 seguridad informática</td>
+                <td>FTK Image y Autopsy</td>
+                <td>14 de agosto del 2024</td>
+                <td class="estado-contaniner">
+                  <span class="progreso">En progreso</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- seccion multimedia -->
+      <section id="multimedia" class="h-full w-full center">
+        <h2>Multimedia</h2>
+        <video src="/resources/video/muralla-china.mp4" controls class="w-full rounded"></video>
+        <audio src="/resources/audio/music.weba" controls></audio>
+      </section>
+
+      <!-- seccion formulario -->
+      <section id="formulario" class="h-full center">
+        <h2>Formulario de Contacto</h2>
+        <form action="">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required class="input" placeholder="Juan">
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required class="input" placeholder="Perez">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required class="input" placeholder="juan@juan.com">
+          </div>
+          <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required class="input" placeholder="18">
+          </div>
+          <div class="form-group">
+            <label for="nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento" required class="input">
+          </div>
+          <div class="form-group">
+            <label for="descripcion">Comentario:</label>
+            <textarea id="descripcion" name="descripcion" required class="input" placeholder="Comentario..."></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2022 Desarrollo Web. Todos los derechos reservados.</p>
+      <p>Diseño y desarrollo: <a href="https://github.com/Miguel-UNSCH"><strong>Miguel Ramirez</strong></a></p>
+    </footer>
+
+    <!-- botón de retorno al inicio -->
+    <button id="backToTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

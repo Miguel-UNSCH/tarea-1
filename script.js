@@ -29,8 +29,6 @@ const item = document.querySelectorAll("#item")
 item.forEach(element => {
     element.addEventListener("click", () => {
         navbar.classList.remove("navbar-mobile");
-        bars.style.display = "block";
-        close.style.display = "none";
     })
 });
 
